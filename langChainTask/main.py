@@ -23,24 +23,25 @@ vec_store = embed_text(split_text)
 # gemini_api = "AIzaSyC9qoe-Vue-9kN7RN5HTbHD0OrVXUur6_w"
 groq_api = "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"
 llm = ChatGroq(model="llama3-8b-8192", api_key=groq_api)
-user_query = input("Seen the summary? I can expand on that. Aske me! \n\n")
-
-prompt_template = """
-    Answer the question as detailed as possible from the provided context, make sure to provide all the details,
-    if the answer is not in the provided context just say, "answer is not available in the context", don't provide the wrong answer\n\n
-    Context:\n {context}?\n
-    Question: \n{question}\n
-
-    Answer:
-    """
-prompt = PromptTemplate(
-        template=prompt_template, input_variables=["context", "question"]
+while (True):
+    user_query = input("Seen the summary? I can expand on that. Aske me! \n\n")
+    
+    prompt_template = """
+        Answer the question as detailed as possible from the provided context, make sure to provide all the details,
+        if the answer is not in the provided context just say, "answer is not available in the context", don't provide the wrong answer\n\n
+        Context:\n {context}?\n
+        Question: \n{question}\n
+    
+        Answer:
+        """
+    prompt = PromptTemplate(
+            template=prompt_template, input_variables=["context", "question"]
+        )
+    docs = vec_store.similarity_search(user_query)
+    chain = load_qa_chain(llm, chain_type="stuff", prompt=prompt)
+    
+    response = chain.invoke(
+        {"input_documents": docs, "question": user_query}, return_only_outputs=True
     )
-docs = vec_store.similarity_search(user_query)
-chain = load_qa_chain(llm, chain_type="stuff", prompt=prompt)
-
-response = chain.invoke(
-    {"input_documents": docs, "question": user_query}, return_only_outputs=True
-)
-
-print(f'\n\n {response['output_text']} \n\n')
+    
+    print(f'\n\n {response['output_text']} \n\n')
