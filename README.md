@@ -9,4 +9,8 @@ utils-- __init__.py -- for imports
         summarization.py -- produces a four-sentence summary of the whole page using *load_summarize_chain* from *langchain.chains.summarize import* and the open source LLM agent *ChatGroq* and *PromptTemplate* all from langchain module
         embedding.py -- makes use of text splitter and FAISS vector store to create index for similarity search later with the user query
 
-files -- contains sample of chain run using *https://sakana.ai/evolutionary-model-merge/* as .txt files 
+files -- contains sample of chain run using *https://sakana.ai/evolutionary-model-merge/* as .txt files
+
+### Simlest application
+of langchain included here as well as simplest_lang_chain.py
+It surely cant get any simpler than this 😁!
