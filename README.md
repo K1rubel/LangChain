@@ -19,3 +19,7 @@ files -- contains sample of chain run using *https://sakana.ai/evolutionary-mode
 ### Simlest application
 of langchain included here as well as simplest_lang_chain.py
 It surely cant get any simpler than this 😁!
+
+### Warning
+The embedder has size limitations about the number of tokens that can be handled. So take that into consideration. Apart from that and some deprecation warnings which couldnt go way despite all that I did, the system works well for custom chat based on the text from the web page.
+Thanks!
