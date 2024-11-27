@@ -1,0 +1,27 @@
+Summary 1
+The core research focus of Sakana AI is applying nature-inspired ideas, 
+such as evolution and collective intelligence, to create new foundation models. 
+The company is developing technology that uses evolution to automate the development 
+of foundation models with particular abilities suitable for user-specified 
+application domains.
+Summary 2
+The core research focus of Sakana AI is applying nature-inspired ideas,
+such as evolution and collective intelligence, to create new foundation models. 
+The company is developing technology that uses evolution to automate the development
+of foundation models with specific abilities suitable for user-specified application
+domains. As a first step, they released a report on Evolutionary Optimization of 
+Model Merging Recipes, which introduces Evolutionary Model Merge, a general method 
+that uses evolutionary techniques to efficiently discover the best ways to 
+combine different models. They tested this approach by evolving a Japanese Large 
+Language Model (LLM) capable of Math reasoning and a Japanese Vision-Language Model
+ (VLM), achieving state-of-the-art results on several benchmarks.
+Summary 3
+The core research focus of Sakana AI is applying nature-inspired ideas to create 
+new foundation models. They are developing technology to automate the development 
+of foundation models with particular abilities suitable for user-specified 
+application domains. The team has released a report on their approach, 
+Evolutionary Optimization of Model Merging Recipes, which uses evolutionary 
+techniques to efficiently discover the best ways to combine different models from 
+the vast ocean of open-source models. They have successfully evolved two new 
+foundation models for Japan: a Japanese Large Language Model (LLM) capable of
+Math reasoning and a Japanese Vision-Language Model (VLM).

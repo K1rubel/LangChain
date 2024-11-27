@@ -1,0 +1,89 @@
+1. input url: "https://sakana.ai/evolutionary-model-merge/"
+
+Summary: The core research focus of Sakana AI is in applying 
+    nature-inspired ideas, such as evolution and collective 
+    intelligence, to create new foundation models. We are 
+    currently developing technology that makes use of evolution 
+    with the goal of automating the development of foundation
+     models with particular abilities suitable for user-specified 
+     application domains.
+User query: Are there any models created using the above method?
+
+LLM response:  According to the provided context, yes, there are
+ models created using the method of model merging. The article 
+ mentions the creation of new open models with new emergent 
+ combined capabilities that had not previously existed using an 
+ automated approach. Specifically, two new models are mentioned: 
+ a Japanese Math LLM and a Japanese-capable VLM, which were 
+ evolved using this approach.
+Additionally, the article highlights the Open LLM Leaderboard, 
+which is dominated by merged models. This suggests that many 
+models have been created using this method, and they have shown
+ promising results.
+
+2. input url: "https://sakana.ai/evolutionary-model-merge/"
+
+Summary:  The core research focus of Sakana AI is applying 
+nature-inspired ideas to create new foundation models. 
+The company is developing technology that uses evolution to 
+automate the development of foundation models with specific 
+abilities for user-specified application domains. The goal 
+is to create a machinery to automatically generate foundation 
+models, rather than training individual models.
+
+User query: what are the methods used to evolve new foundational models?
+
+Response:  According to the provided context, the method used 
+to evolve new foundational models is Evolutionary Design. 
+This approach applies the concept of evolution to find combinations
+ of different parts of different foundation models. 
+ Through successive generations, evolution produces new 
+ foundation models naturally selected to perform well 
+ at a particular application domain specified by the user. 
+ It's also mentioned that the team employed this approach without 
+ the need for any gradient-based training, requiring relatively 
+ little compute resources. Although they can employ gradient-based
+  backpropagation to further improve performance, the primary 
+  focus of this release is to demonstrate that even without 
+  backprop, they can still evolve state-of-the-art foundation 
+  models, challenging the current paradigm of costly model 
+  development. 
+
+  3.
+  input url: https://sakana.ai/evolutionary-model-merge/
+
+  Summary:  The core research focus of Sakana AI is applying 
+  nature-inspired ideas to create new foundation models. We're 
+  developing technology that uses evolution to automate the 
+  development of foundation models with specific abilities 
+  for user-specified application domains. Our goal is to create 
+  machinery to automatically generate foundation models. 
+  We've released a report, Evolutionary Optimization of Model 
+  Merging Recipes, introducing Evolutionary Model Merge, a 
+  general method that uses evolutionary techniques to efficiently 
+  discover the best ways to combine different models. We've also 
+  evolved three powerful foundation models for Japan: a Large 
+  Language Model, a Vision-Language Model, and an Image Generation
+   Model. 
+
+   User query: What are specific ways by which models are merged?
+
+   Response:
+   According to the provided context, there are two specific 
+   ways by which models are merged:
+
+1. **Merging in the Data Flow Space (Layers)**: This approach 
+involves evolving new ways of mixing the weights of multiple 
+models by exploring a vast space of possibilities, discovering 
+novel and unintuitive combinations that traditional methods and 
+human intuition might miss.
+
+2. **Merging in the Parameter Space (Weights)**: This approach 
+involves evolving new ways of mixing the weights of multiple 
+models by applying evolutionary algorithms to efficiently find 
+novel mixing strategies to combine the weights of multiple models.
+
+Additionally, the context also mentions the possibility of 
+combining both approaches together to evolve new foundation 
+models that might require particular architectural innovations 
+to be discovered by evolution. 
