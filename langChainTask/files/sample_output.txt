@@ -87,3 +87,47 @@ Additionally, the context also mentions the possibility of
 combining both approaches together to evolve new foundation 
 models that might require particular architectural innovations 
 to be discovered by evolution. 
+
+4. url: https://www.bbc.com/news/articles/c3rxe1wv9ero
+Summary:
+ US firms are racing to prepare for potential tariffs imposed by President 
+ Trump, with some already seeing economic consequences. Firms like handbag 
+ designer MinkeeBlue are stockpiling, shifting supply chains, and reworking
+  contracts to guard against the impact. Some experts warn that even if 
+  Trump's policies remain just talk, the uncertainty could still lead to 
+  higher prices and possible shortages. Small business owners like 
+  MinkeeBlue's Sherrill Mosee are particularly vulnerable, with limited 
+  financial cushion to weather uncertainty. 
+
+Query: What are trumps measures exactly?
+
+Response: 
+
+* A 25% levy on goods from Canada and Mexico
+* An additional 10% tariff, above any additional tariffs, 
+on imports from China
+* A campaign pledge to impose across-the-board tariffs of at least 10% on 
+all imports coming into the US
+* Tariffs of 60% or more on goods from China, many of which already face 
+steep duties left over from actions taken during his first term as 
+president. 
+
+Query:
+    what are the countries affected by the sanctions?
+Response:
+    1. China
+    2. Mexico
+    3. Canada
+Query:
+    Are there going to be other plitical ramifications fot the policy?
+Response:
+
+ According to the provided context, there are likely to be other political 
+ ramifications for the policy. The article mentions that the potential 
+ tariffs could have a significant impact on the economy, 
+ leading to higher prices for consumers, possible shortages of 
+ certain items, and reduced economic growth. Additionally, the 
+ article quotes economist Wendy Edelberg, director of the Hamilton 
+ Project and a senior fellow at the Brookings Institution, who states 
+ that even if Trump's policies remain just talk, the public could see 
+ higher prices, as well as possible shortages of some items, as hoarding left some firms scrambling.
