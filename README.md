@@ -1,5 +1,6 @@
 # LangChainTask
-This is part of iCogLabs weekly intern training assignment. This one focuses on leveraging langchian package for various ends.
+This is part of iCogLabs weekly intern training assignment. This one focuses on leveraging langchian package for various ends. The implementation here is a custom question-and-answer bot that shows the summary of a given webpage so that the user can have an overall idea and raise questions about which one needs more explanation on. Then the user is prompted to ask questions and the bot responds by referring to the contents of the webpage uploaded by the user. The bot responds wiht relevant contents and if content not available will notify the user of the situation.
+
 
 ## File Organization
 Main folder --- langChainTask -- contains the main.py file, utils and files folders
