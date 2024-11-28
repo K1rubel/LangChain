@@ -15,7 +15,7 @@ summarization.py -- produces a four-sentence summary of the whole page using *lo
 
 embedding.py -- makes use of text splitter and FAISS vector store to create index for similarity search later with the user query
 
-files -- contains sample of chain run using *https://sakana.ai/evolutionary-model-merge/* as .txt files
+files -- contains sample of chain run using *https://sakana.ai/evolutionary-model-merge/* and *https://www.bbc.com/news/articles/c3rxe1wv9ero* in a .txt files
 
 ### Simlest application
 of langchain included here as well as simplest_lang_chain.py
